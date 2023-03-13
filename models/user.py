@@ -13,4 +13,3 @@ users = Table(
         )
 
 meta.create_all(engine)
-
