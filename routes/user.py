@@ -11,8 +11,6 @@ from models.user import users
 from schemas.user import User
 
 
-
-
 key = Fernet.generate_key()
 f = Fernet(key)
 
